@@ -19,3 +19,8 @@ variable "tenant_id" {
   type        = string
 }
 
+variable "SSH_PRIVATE_KEY" {
+  type = string
+  sensitive = true
+}
+
